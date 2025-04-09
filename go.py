@@ -12,7 +12,7 @@ print(f"Entorno virtual '{env_name}' creado.")
 activate_script = os.path.join(env_name, "Scripts", "activate")
 
 subprocess.run([sys.executable, "-m", "venv", env_name])
-repositorio="prueba"
+repositorio="nigeria"
 comandos = [
     ["git", "init"],
     ["git", "add", "."],
